@@ -2,24 +2,24 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+
+
+    return (
+      
+      <div className="btn-wrapper">
+        <header id="header">Penn State Football</header>
+        <textarea>these buttons will send you to the personal page for the starting quarterback and main linebacker for the Penn State Football team. The Quarter back is the top image and the Middle Line Backer is the bottom Image. Click on the botton now to find out more information.</textarea>
+        <img className='QB' src="https://www.statecollege.com/wp-content/uploads/2023/09/BURDICK-Delaware-Allar-throw-1st-half-scaled.jpg" alt="QB Pic"></img>
+        <img className='LB' src="https://media.gettyimages.com/id/1244435446/es/foto/penn-state-linebacker-abdul-carter-reads-the-play-during-the-ohio-state-buckeyes-versus-penn.jpg?s=1024x1024&w=gi&k=20&c=FMTrLWUDVFD4tlL3lTye07SIdHsFU_05SXkmsJFTwIM=" alt="Linebacker Pic"></img>
+        <a href="https://gopsusports.com/sports/football/roster/drew-allar/13992">
+          <button>Quarterbackdetails</button>
         </a>
-      </header>
-    </div>
-  );
+        <a href="https://gopsusports.com/sports/football/roster/abdul-carter/13999">
+          <button>Middle Line Backer</button>
+        </a>
+      </div>
+      
+    );
 }
 
 export default App;
